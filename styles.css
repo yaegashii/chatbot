@@ -1,0 +1,99 @@
+h1{
+    text-align: center;
+    font-size: 3rem;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    background-color:brown;
+    opacity: 0.4;
+
+}
+h1:hover{
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    opacity: 1;
+
+}
+
+body {
+    font: 15px arial, sans-serif;
+    background-image: url("img/background.webp");
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  #bodybox {
+    margin: auto; 
+    max-width: 550px;
+    font: 15px arial, sans-serif;
+    background-color: white;
+    border-style: solid;
+    opacity: 1;
+    border-width: 1px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+  
+  #chatborder {
+    border-style: solid;
+    background-color: #f6f9f6;
+    border-width: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 15px;
+    border-radius: 15px;
+  }
+  
+  .chatlog {
+     font: 15px arial, sans-serif;
+  }
+  
+  #chatbox {
+    font: 17px arial, sans-serif;
+    height: 22px;
+    width: 100%;
+  }
+    
+  pre {
+    background-color: #f0f0f0;
+    margin-left: 20px;
+  }
+
+p#initialoptions {
+    cursor: pointer;
+    margin-right: 5rem;
+}
+p#initialoptions:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+p#initialoptions1 {
+    cursor: pointer;
+    margin-right: 5rem;
+}
+p#initialoptions1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+p#initialoptions2 {
+  cursor: pointer;
+  margin-right: 5rem;
+}
+p#initialoptions2:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
